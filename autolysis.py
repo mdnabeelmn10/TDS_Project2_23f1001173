@@ -11,7 +11,7 @@
 #   "numpy",
 #   "scipy",
 #   "pathlib",
-#   "asyncio".
+#   "asyncio",
 # ]
 # ///
 
