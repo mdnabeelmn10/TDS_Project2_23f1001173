@@ -10,6 +10,8 @@
 #   "openai",
 #   "numpy",
 #   "scipy",
+#   "pathlib",
+#   "asyncio".
 # ]
 # ///
 
