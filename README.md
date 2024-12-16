@@ -48,10 +48,6 @@ The main script processes input datasets and performs the following steps:
 3. **Visualization**: Generates 512x512 px PNG charts using OpenAI Vision API.
 4. **Story Generation**: Creates a detailed README.md file using OpenAI LLMs.
 
-### Retry Logic with Tenacity
-
-The script uses Tenacity to handle transient errors and rate limits gracefully by retrying API calls up to 5 times with exponential backoff.
-
 ### Example Datasets
 
 - **Goodreads**: A dataset of book ratings and reviews.
@@ -103,7 +99,7 @@ A 512x512 visualization of the correlation between GDP per capita and happiness 
 
 1. **AuthenticationError**:
 
-   - Ensure the `AI_PROXY` environment variable is set with a valid API key.
+   - Ensure the `AIPROXY_TOKEN` environment variable is set with a valid API key.
 
 2. **Rate Limits (HTTP 429)**:
 
