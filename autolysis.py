@@ -33,7 +33,7 @@ API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
 
 def get_token():
     try:
-        return os.environ["AI_PROXY"]
+        return os.environ["AIPROXY_TOKEN"]
     except KeyError as e:
         print(f"Error")
         raise
