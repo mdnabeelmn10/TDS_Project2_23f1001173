@@ -12,6 +12,7 @@
 #   "scipy",
 #   "pathlib",
 #   "asyncio",
+#   "ipykernel",
 # ]
 # ///
 
